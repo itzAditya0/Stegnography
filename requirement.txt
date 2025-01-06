@@ -1,24 +1,24 @@
 # Machine learning and deep learning
-tensorflow==2.13.0         # For building and training neural networks
-torch==2.0.1               # Alternative deep learning framework
-keras==2.13.0              # High-level neural network API for TensorFlow
+tensorflow==2.12.0         # For building and training neural networks
+torch==2.0.1              # Alternative deep learning framework
+keras==2.12.0             # High-level neural network API for TensorFlow
 
 # Image processing
-opencv-python==4.8.0.74    # For image manipulation and processing
-Pillow==9.4.0              # For image handling
+opencv-python==4.8.0.74   # For image manipulation and processing
+Pillow==9.4.0            # For image handling
 
 # Data handling
-numpy==1.25.0              # Numerical computations
-pandas==2.1.0              # Data manipulation and analysis
+numpy==1.23.5             # Numerical computations (compatible with TensorFlow 2.12.0)
+pandas==1.5.3             # Data manipulation and analysis (last version for Python 3.8)
 
 # Utilities
-matplotlib==3.7.2          # For plotting and visualization
-seaborn==0.12.2            # Advanced visualization
-tqdm==4.66.1               # Progress bar for loops
+matplotlib==3.7.1         # For plotting and visualization
+seaborn==0.12.2          # Advanced visualization
+tqdm==4.66.1             # Progress bar for loops
 
 # Logging and debugging
-tensorboard==2.13.0        # TensorFlow visualization toolkit
-loguru==0.7.0              # Elegant logging
+tensorboard==2.12.0       # TensorFlow visualization toolkit
+loguru==0.7.0            # Elegant logging
 
 # Testing
-pytest==7.4.2              # For unit testing
+pytest==7.4.2            # For unit testing
